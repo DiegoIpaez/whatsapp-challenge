@@ -1,0 +1,11 @@
+.container {
+  padding: 0px 1.6rem;
+}
+
+.navbar {
+  margin: 1.1rem 0px;
+}
+
+.navbar h4 {
+    font-weight: 700;
+}
