@@ -8,15 +8,14 @@
   --success: green;
   --warning: yellow;
   --danger: red;
-  --ligth: white;
+  --ligth: #E9EDEF;
   --ligth-medium: #e9edefe0;
   --dark: black;
 
   --bg-color: #222e35;
+  --bg-color-ligth: #32444e;
   --bg-color-dark: #111b21;
   --shadow: rgba(117, 117, 117, 0.062);
-
-  --text-color: white;
 }
 
 * {
@@ -24,5 +23,5 @@
   padding: 0;
   box-sizing: border-box;
 
-  color: white;
+  color: var(--ligth);
 }

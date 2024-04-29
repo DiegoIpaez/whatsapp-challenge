@@ -1,0 +1,44 @@
+.cardContainer {
+  display: flex;
+  background-color: transparent;
+  border-bottom: 0.1rem solid var(--bg-color);
+  padding: 14px 12px;
+  margin-right: 0.25rem;
+}
+.cardContainer:hover {
+  background-color: var(--bg-color);
+}
+
+.cardSelected, .cardSelected:hover {
+  background-color: var(--bg-color-ligth);
+}
+.cardSelected > div > div:last-child > span:first-child {
+  color: var(--ligth);
+}
+
+.profilePicture {
+  height: 3.063rem;
+  width: 3.063rem;
+  border-radius: 10rem;
+  margin-right: 0.9rem;
+}
+
+.chatDescription {
+  width: 100%;
+}
+.chatDescription div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.chatDate, .chatMsg, .chatUnreadMsg {
+  color: var(--secondary);
+  font-size: 14px;
+}
+
+.chatUnreadMsg {
+  background-color: var(--success);
+  padding: 0px 6px;
+  border-radius: 10rem;
+  color: var(--ligth);
+}
