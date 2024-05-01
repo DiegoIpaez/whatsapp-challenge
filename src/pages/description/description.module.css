@@ -1,9 +1,19 @@
 .descriptionContainer {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   height: 100vh;
+}
+
+.content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-top: 4rem;
 }
 
 .title {
@@ -14,11 +24,22 @@
 
 .subtitle {
   color: var(--secondary);
-  font-size: 0.9rem;
+  font-size: 1rem;
+  font-weight: 400;
   margin-top: 0.6rem;
 }
 
-.footerText {
-  font-size: 0.9rem;
+.footer {
+  display: flex;
+  margin-bottom: 3rem;
+}
+.footer > span > i {
+  font-size: 0.8rem;
+  color: var(--secondary-medium);
+  margin-right: 0.1rem;
+}
+.footer > p {
+  font-size: 1rem;
+  font-weight: 400;
   color: var(--secondary-medium);
 }
