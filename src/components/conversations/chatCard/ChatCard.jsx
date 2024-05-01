@@ -16,7 +16,7 @@ const ChatCard = ({ chat, chatSelected, setChatSelected }) => {
         }`}
       >
         <img
-          loading='lazy'
+          loading="lazy"
           className={styles.profilePicture}
           src={chat?.profilePicture}
           alt={`profile-picture-${chat?.name}`}
@@ -24,7 +24,11 @@ const ChatCard = ({ chat, chatSelected, setChatSelected }) => {
         <div className={styles.chatDescription}>
           <div>
             <span className={styles.chatName}>{chat?.name}</span>
-            <span className={styles.chatDate}>
+            <span
+              className={`${styles.chatDate} ${
+                chat?.unreadMessages > 0 && styles.chatDateActive
+              }`}
+            >
               {formatTime(chat?.lastMessage?.createdAt)}
             </span>
           </div>
