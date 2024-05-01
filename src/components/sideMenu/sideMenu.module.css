@@ -1,11 +1,33 @@
-.menuContainer {
+.menuNav,
+.menuConf {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
 }
 
-.item {
+.item,
+.itemSelected {
+  cursor: not-allowed;
   padding: 8px;
-  background-color: var(--bg-color-ligth);
   border-radius: 10rem;
   margin-top: 10px;
+}
+
+.itemSelected {
+  cursor: pointer;
+  background-color: var(--bg-color-ligth);
+}
+
+.item > svg,
+.itemSelected > svg {
+  color: var(--ligth-medium);
+}
+
+.divisor {
+  height: 0.15rem;
+  width: 65%;
+  background-color: #4c565b;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
 }

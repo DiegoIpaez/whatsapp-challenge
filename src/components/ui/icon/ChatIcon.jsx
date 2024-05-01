@@ -1,7 +1,7 @@
 const ChatIcon = ({
   isOutline = false,
-  height = '27',
-  width = '27',
+  height = '26',
+  width = '26',
   ...props
 }) => {
   if (isOutline) {
