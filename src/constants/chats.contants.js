@@ -3,7 +3,7 @@ export const CHAT_COLLECTION = [
     id: 1,
     name: 'Billy G.',
     profilePicture:
-      'https://assets.bbhub.io/dotorg/sites/64/2023/09/BillGates-Headshot-2022.jpg',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYTg1cXQLaQsw3DcPCrpFJF90g1Ga1k3yNNtTs9tktRw&s',
     lastMessage: {
       message: 'saludos!',
       createdAt: new Date(),
@@ -36,7 +36,7 @@ export const CHAT_COLLECTION = [
     id: 4,
     name: 'Radia Perlman',
     profilePicture:
-      'https://images.squarespace-cdn.com/content/v1/5c032b5536099b1c1ce28450/fff8dcba-3954-4ff2-8774-c24e1d4cba1f/Radia+Perlman.jpg',
+      'https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/A3B0/production/_103340914_3-1.jpg',
     lastMessage: {
       message: 'We need a meeting with you now',
       createdAt: new Date('2024-04-29'),
