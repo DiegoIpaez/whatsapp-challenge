@@ -9,7 +9,8 @@
   background-color: var(--bg-color);
 }
 
-.cardSelected, .cardSelected:hover {
+.cardSelected,
+.cardSelected:hover {
   background-color: var(--bg-color-ligth);
 }
 .cardSelected > div > div:last-child > span:first-child {
@@ -31,14 +32,21 @@
   justify-content: space-between;
 }
 
-.chatDate, .chatMsg, .chatUnreadMsg {
+.chatDate,
+.chatMsg {
   color: var(--secondary);
   font-size: 14px;
+}
+
+.chatDateActive {
+  color: var(--success);
+  font-weight: 500;
 }
 
 .chatUnreadMsg {
   background-color: var(--success);
   padding: 0px 6px;
   border-radius: 10rem;
-  color: var(--ligth);
+  color: var(--bg-color-dark);
+  font-size: 14px;
 }
