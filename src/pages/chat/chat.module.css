@@ -1,4 +1,6 @@
 .receiverHeader {
+  display: flex;
+  align-items: center;
   padding: 8px 1rem;
   height: 8.6vh;
 }
