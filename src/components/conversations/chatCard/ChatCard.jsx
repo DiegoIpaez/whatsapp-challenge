@@ -16,6 +16,7 @@ const ChatCard = ({ chat, chatSelected, setChatSelected }) => {
         }`}
       >
         <img
+          loading='lazy'
           className={styles.profilePicture}
           src={chat?.profilePicture}
           alt={`profile-picture-${chat?.name}`}
