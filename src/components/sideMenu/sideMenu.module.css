@@ -1,0 +1,11 @@
+.menuContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.item {
+  padding: 8px;
+  background-color: var(--bg-color-ligth);
+  border-radius: 10rem;
+  margin-top: 10px;
+}

@@ -1,0 +1,20 @@
+.layoutContainer {
+  background-color: var(--bg-color);
+  display: flex;
+  height: 100vh;
+}
+
+.sideMenuContainer {
+  flex: 0.2;
+}
+.conversationsContainer {
+  background-color: var(--bg-color-dark);
+  flex: 1.3;
+}
+.chatContainer {
+  flex: 3;
+}
+
+.sideMenuContainer, .conversationsContainer {
+  border-right: 0.08rem solid var(--bg-color-ligth);
+}
