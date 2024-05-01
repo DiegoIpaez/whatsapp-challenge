@@ -1,7 +1,7 @@
 .chatListContainer {
   overflow-y: scroll;
   scroll-behavior: smooth;
-  height: 91vh;
+  height: 90.4vh;
 }
 .chatListContainer::-webkit-scrollbar {
   width: 0.29rem;

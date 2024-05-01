@@ -1,5 +1,6 @@
 .receiverHeader {
   padding: 8px 1rem;
+  height: 8.6vh;
 }
 .profilePicture {
   height: 3.063rem;
@@ -9,17 +10,17 @@
 }
 
 .messages {
-  height: 81vh;
+  height: 82.4vh;
   padding: 0px 63px;
 }
 
 .chatInputContainer {
-  margin: 0px 0.5rem;
+  display: flex;
+  padding: 0.7rem 1rem;
+  height: 9vh;
 }
 .chatInput {
   width: 100%;
-  height: 2.7rem;
-  margin: 1rem 0px;
   background-color: var(--bg-color-ligth);
   border-radius: 0.4rem;
   padding: 1rem;
